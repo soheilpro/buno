@@ -1,0 +1,30 @@
+{
+  "name": "buno",
+  "version": "1.0.0",
+  "description": "Run custom scripts before and after executing a command.",
+  "main": "index.js",
+  "bin": {
+    "buno": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soheilpro/buno.git"
+  },
+  "keywords": [
+    "build",
+    "notification",
+    "hook"
+  ],
+  "author": "Soheil Rashidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soheilpro/buno/issues"
+  },
+  "homepage": "https://github.com/soheilpro/buno#readme",
+  "dependencies": {
+    "yargs": "^5.0.0"
+  }
+}
